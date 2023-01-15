@@ -1,0 +1,71 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+th{
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+td{
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 50%; /* Set the width of the form to 50% of the viewport */
+    margin: 0 auto; /* Center the form on the page */
+    padding: 20px; /* Add some padding to the form */
+}
+
+form label {
+    font-size: 1.5em; /* Increase the font size of the labels */
+    margin-bottom: 10px; /* Add some margin below the labels */
+}
+
+form input[type="text"] {
+    width: 100%; /* Make the text inputs take up the full width of the form */
+    padding: 12px 20px; /* Add some padding to the text inputs */
+    margin: 8px 0; /* Add some margin to the text inputs */
+    box-sizing: border-box; /* Include the padding and border in the size of the input */
+}
+
+input[type="submit"] {
+    width: 100%; /* Make the submit button take up the full width of the form */
+    background-color: #4CAF50; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    padding: 14px 20px; /* Add some padding to the button */
+    margin: 8px 0; /* Add some margin to the button */
+    border: none; /* Remove the border from the button */
+    cursor: pointer; /* Add a cursor to the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Change the background color of the button on hover */
+}
+
+input[type="button"] {
+    background-color: #4CAF50; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    border: none; /* Remove the border from the button */
+    cursor: pointer; /* Add a cursor to the button */
+}
+
+input[type="button"]:hover {
+    background-color: #45a049; /* Change the background color of the button on hover */
+}
